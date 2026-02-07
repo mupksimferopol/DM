@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background-color: #EEEFF1;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.links{
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 42px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.content_nav{
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome_wrapper{
+  align-items: center;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.welcome_text_wrapper{
+  max-width: 540px;
+  padding-left: 130px;
+}
+h1{
+  font-size: 48px;
+  font-weight: 500;
+}
+.about-p{
+  padding-top: 60px;
+  min-width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.send-btn{
+  margin-top: 30px;
+  background-color: #ad0000;
+  color:white;
+  min-width: 200px;
+  min-height: 60px;
+  border-radius: 10px;
+  border-color: black;
+  border: 2px;
+}
+@media screen and (max-width: 992px) {
+  .send-btn{
+    margin-bottom: 200px; 
+    min-width: 200px; 
+    min-height: 55px;
+  }
+  .welcome_wrapper{
+    align-items: center; 
+    padding-top: 130px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-bottom: 200px;
+  }
+  .welcome_text_wrapper{
+    padding-top: 20px;
+    max-width: 540px;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .content_nav{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .navfooterbar{
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-p{
+    margin-top: 60px;
+    min-width: 200px;
+    size: 16px;
+    line-height: 26px;
+  }
+}
+.logo__img-fluid{
+  height: 100px;
+  width: 100px;
+}
+.katolog__img{
+  height: 270px;
+  width: 350px;
+  border-radius: 20px;
+}
+.img-fluid{
+  height: 500px;
+  width: 700px;
+}
+.send-btn:hover{
+  color: red;
+  background-color: white;
+  border-color: red;
+  border: 2px;
+  transition-duration: 0.5s;
+}
+.katolog__button{
+  margin-top: 30px;
+  background-color: #ad0000;
+  color:white;
+  min-width: 125px;
+  min-height: 40px;
+  border-radius: 10px;
+  border-color: black;
+  border: 2px;
+}
+.katolog__button:hover{
+  color: red;
+  background-color: white;
+  border-color: red;
+  border: 2px;
+  transition-duration: 0.75s;
+}
+header{
+  background-color: white;
+}
+li{
+  border-color: red;
+  border-radius: 15px;
+}
+.navfooterbar{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.katolog__spisok{
+  max-width: 780px;
+}
+.history{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.special{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+.chose{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.sumbit-entry{
+  margin-left: 20px;
+  border: 2px;
+  background-color: #ad0000;
+  color:white;
+  min-width: 70px;
+  min-height: 30px;
+  border-radius: 7px;
+}
+.sumbit-entry:hover{
+  border: 2px;
+  background-color: white;
+  color: #ad0000;
+  min-width: 70px;
+  min-height: 10px;
+  border-radius: 7px;
+  transition-duration: 1s;
+}
+.forms__enter{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.forms_question{
+  padding-left: 522px;
+}
+.sumbit-entry-k{
+  margin-left: 50px;
+  border: 2px;
+  background-color: #ad0000;
+  color:white;
+  min-width: 70px;
+  min-height: 30px;
+  border-radius: 7px;
+}
+.sumbit-entry-k:hover{
+  border: 2px;
+  background-color: white;
+  color: #ad0000;
+  min-width: 70px;
+  min-height: 10px;
+  border-radius: 7px;
+  transition-duration: 1s;
+}
+.katolog_div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.katolog-card{
+  max-width: 400px;
+  margin: 20px;
+  border: #ad0000 1px solid;
+  padding: 20px;
+  border-radius: 20px;
+}
+.section-contacts__info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.support__text{
+  text-align: center;
+}
+.support__entry{
+  padding-right: 20px;
+}
